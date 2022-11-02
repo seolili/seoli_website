@@ -1,0 +1,48 @@
+/*******TAG SELECTOR ********/
+body {
+    background-color: #EEF1FF;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: #B1B2FF;
+    border-width: 5px;
+    border-spacing: 2cm;
+    height: 0px;
+    width: 10%;
+}
+
+h1 {
+    color: #6F38C5;
+}
+
+h3 {
+    color: #6F38C5;
+}
+
+img:hover {
+    background-color: antiquewhite;
+}
+
+/******** CLASS SELECTOR *******/
+/* can have multiple class, groups related elements that are going to have similar or same style */
+/* overwrite the tag selector */
+/* more specific */
+/* .me{
+    background-color: antiquewhite;
+} */
+.submit:hover {
+    background-color: #B1B2FF;
+    border-radius: 10%;
+    border-color: #B1B2FF;
+}
+
+
+/******** ID SELECTOR *******/
+/* can only have 1 single id in the same page, it's unique */
+/* overwrite the tag selector*/
+/* more specific */
+/* #heading{
+    color: black;
+} */
